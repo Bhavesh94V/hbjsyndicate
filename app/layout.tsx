@@ -36,6 +36,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
+      <head>
+        <meta name="google-site-verification" content="google6d63f09852c64fa5.html" />
+        <meta name="description" content="HBJ Syndicate delivers exceptional digital experiences through custom web development, e-commerce solutions, and innovative web applications. Transform your business with our premium services." />
+        <meta name="keywords" content="web development, digital solutions, e-commerce, web applications, UI/UX design, custom websites, HBJ Syndicate, premium web services" />
+      </head>
       <body className="font-sans antialiased">
         <LenisScroll>
           <Header />
@@ -46,3 +51,4 @@ export default function RootLayout({
     </html>
   )
 }
+
