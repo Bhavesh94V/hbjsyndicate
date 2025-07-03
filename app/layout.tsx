@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "web development, digital solutions, e-commerce, web applications, UI/UX design, custom websites, HBJ Syndicate, premium web services",
   generator: "v0.dev",
   verification: {
-    google: "google6d63f09852c64fa5.html",
+    google: "EgLStrHtnMa3B1x2msX7WhXh1PlynPu-Bzgrk7IvUoY", // ✅ Use code here, not .html file name
   },
 }
 
@@ -37,7 +37,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
       <head>
-        <meta name="google-site-verification" content="google6d63f09852c64fa5.html" />
+        {/* ✅ Use only the verification code below */}
+        <meta name="google-site-verification" content="EgLStrHtnMa3B1x2msX7WhXh1PlynPu-Bzgrk7IvUoY" />
         <meta name="description" content="HBJ Syndicate delivers exceptional digital experiences through custom web development, e-commerce solutions, and innovative web applications. Transform your business with our premium services." />
         <meta name="keywords" content="web development, digital solutions, e-commerce, web applications, UI/UX design, custom websites, HBJ Syndicate, premium web services" />
       </head>
@@ -51,4 +52,3 @@ export default function RootLayout({
     </html>
   )
 }
-
